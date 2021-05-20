@@ -1,0 +1,33 @@
+{
+    "name": "artyomnar/lead-form-provider",
+    "description": "Takes simple lead form from any web page and provide it into telegram",
+    "type": "library",
+    "keywords": ["lead-form", "notifier", "wrapper", "telegram", "pipeline", "crm"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/artyomnar94/lead-form-provider/issues",
+        "wiki": "https://github.com/artyomnar94/lead-form-provider/wiki",
+        "source": "https://github.com/artyomnar94/lead-form-provider"
+    },
+    "authors": [
+        {
+            "name": "Artyom Narmagambetov",
+            "email": "artyomnar94@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "LeadFromProvider\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
